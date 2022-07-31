@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		F5C9051F28964385000BACB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9051E28964385000BACB0 /* AppDelegate.swift */; };
 		F5C9052128964385000BACB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9052028964385000BACB0 /* SceneDelegate.swift */; };
-		F5C9052328964385000BACB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9052228964385000BACB0 /* ViewController.swift */; };
-		F5C9052628964385000BACB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C9052428964385000BACB0 /* Main.storyboard */; };
 		F5C9052828964388000BACB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C9052728964388000BACB0 /* Assets.xcassets */; };
 		F5C9052B28964388000BACB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C9052928964388000BACB0 /* LaunchScreen.storyboard */; };
 		F5C9053628964389000BACB0 /* ClosedPrsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9053528964389000BACB0 /* ClosedPrsTests.swift */; };
 		F5C9054028964389000BACB0 /* ClosedPrsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9053F28964389000BACB0 /* ClosedPrsUITests.swift */; };
 		F5C9054228964389000BACB0 /* ClosedPrsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9054128964389000BACB0 /* ClosedPrsUITestsLaunchTests.swift */; };
+		F5C90550289643F1000BACB0 /* PrView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9054F289643F1000BACB0 /* PrView.swift */; };
+		F5C9055228964405000BACB0 /* PrInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9055128964405000BACB0 /* PrInteractor.swift */; };
+		F5C9055428964416000BACB0 /* PrPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9055328964416000BACB0 /* PrPresenter.swift */; };
+		F5C905562896442F000BACB0 /* PrEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C905552896442F000BACB0 /* PrEntity.swift */; };
+		F5C905582896443C000BACB0 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C905572896443C000BACB0 /* Router.swift */; };
+		F5C9055A28967388000BACB0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9055928967388000BACB0 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,6 @@
 		F5C9051B28964385000BACB0 /* ClosedPrs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClosedPrs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C9051E28964385000BACB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5C9052028964385000BACB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F5C9052228964385000BACB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F5C9052528964385000BACB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5C9052728964388000BACB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5C9052A28964388000BACB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5C9052C28964388000BACB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,12 @@
 		F5C9053B28964389000BACB0 /* ClosedPrsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClosedPrsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C9053F28964389000BACB0 /* ClosedPrsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosedPrsUITests.swift; sourceTree = "<group>"; };
 		F5C9054128964389000BACB0 /* ClosedPrsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosedPrsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F5C9054F289643F1000BACB0 /* PrView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrView.swift; sourceTree = "<group>"; };
+		F5C9055128964405000BACB0 /* PrInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrInteractor.swift; sourceTree = "<group>"; };
+		F5C9055328964416000BACB0 /* PrPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrPresenter.swift; sourceTree = "<group>"; };
+		F5C905552896442F000BACB0 /* PrEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrEntity.swift; sourceTree = "<group>"; };
+		F5C905572896443C000BACB0 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		F5C9055928967388000BACB0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +107,13 @@
 		F5C9051D28964385000BACB0 /* ClosedPrs */ = {
 			isa = PBXGroup;
 			children = (
+				F5C9054E289643D0000BACB0 /* VIPER */,
 				F5C9051E28964385000BACB0 /* AppDelegate.swift */,
 				F5C9052028964385000BACB0 /* SceneDelegate.swift */,
-				F5C9052228964385000BACB0 /* ViewController.swift */,
-				F5C9052428964385000BACB0 /* Main.storyboard */,
 				F5C9052728964388000BACB0 /* Assets.xcassets */,
 				F5C9052928964388000BACB0 /* LaunchScreen.storyboard */,
 				F5C9052C28964388000BACB0 /* Info.plist */,
+				F5C9055928967388000BACB0 /* Extensions.swift */,
 			);
 			path = ClosedPrs;
 			sourceTree = "<group>";
@@ -125,6 +133,18 @@
 				F5C9054128964389000BACB0 /* ClosedPrsUITestsLaunchTests.swift */,
 			);
 			path = ClosedPrsUITests;
+			sourceTree = "<group>";
+		};
+		F5C9054E289643D0000BACB0 /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				F5C9054F289643F1000BACB0 /* PrView.swift */,
+				F5C9055128964405000BACB0 /* PrInteractor.swift */,
+				F5C9055328964416000BACB0 /* PrPresenter.swift */,
+				F5C905552896442F000BACB0 /* PrEntity.swift */,
+				F5C905572896443C000BACB0 /* Router.swift */,
+			);
+			path = VIPER;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +253,6 @@
 			files = (
 				F5C9052B28964388000BACB0 /* LaunchScreen.storyboard in Resources */,
 				F5C9052828964388000BACB0 /* Assets.xcassets in Resources */,
-				F5C9052628964385000BACB0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5C9052328964385000BACB0 /* ViewController.swift in Sources */,
+				F5C905582896443C000BACB0 /* Router.swift in Sources */,
+				F5C9055228964405000BACB0 /* PrInteractor.swift in Sources */,
+				F5C90550289643F1000BACB0 /* PrView.swift in Sources */,
+				F5C9055A28967388000BACB0 /* Extensions.swift in Sources */,
+				F5C9055428964416000BACB0 /* PrPresenter.swift in Sources */,
+				F5C905562896442F000BACB0 /* PrEntity.swift in Sources */,
 				F5C9051F28964385000BACB0 /* AppDelegate.swift in Sources */,
 				F5C9052128964385000BACB0 /* SceneDelegate.swift in Sources */,
 			);
@@ -297,14 +321,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F5C9052428964385000BACB0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F5C9052528964385000BACB0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F5C9052928964388000BACB0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -443,7 +459,6 @@
 				INFOPLIST_FILE = ClosedPrs/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +485,6 @@
 				INFOPLIST_FILE = ClosedPrs/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
