@@ -14,7 +14,6 @@ protocol AnyRouter{
     var entry: EntryPoint? { get }
     static func start() -> AnyRouter
 }
-
 class PrRouter: AnyRouter{
     var entry: EntryPoint?
     
