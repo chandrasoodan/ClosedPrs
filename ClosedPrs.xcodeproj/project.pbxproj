@@ -12,7 +12,6 @@
 		F52D22FF28A12C0800672A9C /* PrPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D22FC28A12C0800672A9C /* PrPresenter.swift */; };
 		F52D230028A12C0800672A9C /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D22FB28A12C0800672A9C /* Router.swift */; };
 		F52D230128A12C0800672A9C /* PrEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D22F928A12C0800672A9C /* PrEntity.swift */; };
-		F55F80F928A12ABA00A79F15 /* VIPER in Resources */ = {isa = PBXBuildFile; fileRef = F55F80F828A12ABA00A79F15 /* VIPER */; };
 		F55F80FB28A12AC200A79F15 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55F80FA28A12AC200A79F15 /* Extensions.swift */; };
 		F5C9051F28964385000BACB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9051E28964385000BACB0 /* AppDelegate.swift */; };
 		F5C9052128964385000BACB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9052028964385000BACB0 /* SceneDelegate.swift */; };
@@ -46,7 +45,6 @@
 		F52D22FA28A12C0800672A9C /* PrInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrInteractor.swift; sourceTree = "<group>"; };
 		F52D22FB28A12C0800672A9C /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		F52D22FC28A12C0800672A9C /* PrPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrPresenter.swift; sourceTree = "<group>"; };
-		F55F80F828A12ABA00A79F15 /* VIPER */ = {isa = PBXFileReference; lastKnownFileType = folder; path = VIPER; sourceTree = "<group>"; };
 		F55F80FA28A12AC200A79F15 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		F5C9051B28964385000BACB0 /* ClosedPrs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClosedPrs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C9051E28964385000BACB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -118,7 +116,6 @@
 				F52D22FC28A12C0800672A9C /* PrPresenter.swift */,
 				F52D22F828A12C0800672A9C /* PrView.swift */,
 				F52D22FB28A12C0800672A9C /* Router.swift */,
-				F55F80F828A12ABA00A79F15 /* VIPER */,
 				F5C9052428964385000BACB0 /* Main.storyboard */,
 				F5C9052728964388000BACB0 /* Assets.xcassets */,
 				F5C9052928964388000BACB0 /* LaunchScreen.storyboard */,
@@ -250,7 +247,6 @@
 			files = (
 				F5C9052B28964388000BACB0 /* LaunchScreen.storyboard in Resources */,
 				F5C9052828964388000BACB0 /* Assets.xcassets in Resources */,
-				F55F80F928A12ABA00A79F15 /* VIPER in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
